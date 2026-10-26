@@ -1,0 +1,9 @@
+<style>@keyframes go-spin{to{transform:rotate(360deg)}}</style>
+<div style="max-width:420px;margin:40px auto;padding:42px 28px 32px;box-sizing:border-box;text-align:center;background:linear-gradient(160deg,#18181b 0%,#0b0b0d 100%);border:1px solid rgba(212,175,106,.35);border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,.28);font-family:'Pretendard',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<div style="width:46px;height:46px;margin:0 auto 22px;box-sizing:border-box;border-radius:50%;border:2px solid rgba(212,175,106,.18);border-top-color:#e2c07a;animation:go-spin 1s linear infinite;"></div>
+<p style="margin:0 0 10px;font-size:11px;letter-spacing:.28em;color:#c9a862;">PRIVATE ACCESS</p>
+<h2 style="margin:0 0 10px;padding:0;border:0;background:none;font-size:22px;font-weight:700;line-height:1.4;color:#f5f1e8;">페이지 이동 중입니다.</h2>
+<p style="margin:0 0 26px;font-size:14px;line-height:1.6;color:#a4a4ab;">잠시 후 안내 페이지로 이동합니다.</p>
+<a id="go-link" href="https://stockceo.cc" style="display:block;padding:14px 16px;border-radius:12px;background:linear-gradient(135deg,#f0d493,#c9a24f);color:#1a1408;font-size:15px;font-weight:700;line-height:1.4;text-decoration:none;">자동 이동이 안 되면 여기를 클릭하세요.</a>
+</div>
+<script>location.replace(document.getElementById("go-link").href);</script>
